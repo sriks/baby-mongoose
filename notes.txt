@@ -1,0 +1,41 @@
+
+8be356d3131b6c9bfa3a26438ed801e6308ee184
+
+CRUD on Data:
+
+CRUD ops on
+/classes/<classname>
+
+
+/classes/users
+/classes/SomeNewClass
+{
+ 
+}
+
+
+Events
+Called on onSave, onUpdate, onDelete on data.
+
+events.onSave(‘SomeNewClass’, function(obj, next) {
+
+});
+
+
+Cloud
+Run code like API. 
+
+
+
+Initialising
+
+Parakeet.initialize({options}, cb);
+options
+dbUri:
+
+
+routes.add(‘/classes/users’, Parakeet.actionHandler);
+
+
+
+

@@ -1,0 +1,17 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "~1.13.2",
+    "debug": "~2.2.0",
+    "express": "~4.13.1"
+  },
+  "devDependencies": {
+    "better-assert": "^1.0.2",
+    "mongoose": "^4.4.3",
+    "should": "^8.2.2",
+    "supertest": "^1.2.0",
+    "underscore": "^1.8.3"
+  }
+}
